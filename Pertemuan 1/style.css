@@ -1,0 +1,69 @@
+
+#container{
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#roof{
+    width:100%;
+    height: 100px;
+    background: black;
+    color: white;
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 15pt;
+    display: table;
+}
+#text{
+    display: table-cell;
+    vertical-align: middle;
+}
+.kotak{
+    width: 33.3%;
+    height: 30px;
+    float: left;
+    
+}
+#red{
+    background: red;
+}
+#blue{
+    background: blue;
+}
+#green{
+    background: green;
+}
+.content{
+    width: 90%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: dotted red 1px;
+}
+#red:hover{
+    background: yellow;
+    cursor: pointer;
+}
+#blue:hover{
+    background: yellow;
+    cursor: pointer;
+}
+#green:hover{
+    background: yellow;
+    cursor: pointer;
+}
+footer{
+    background: black;
+    width: 90%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    text-align: right;
+}
+.foot-text{
+    color: white;
+    display: table-cell;
+    vertical-align: bottom;
+}
